@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.addIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.link {
+    color: black;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 20px;
+}

@@ -1,0 +1,35 @@
+.addForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px
+}
+
+.field {
+    min-height: 30px;
+    max-height: fit-content;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.addBtn {
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+
+    
+}
+.addBtn:hover {
+    cursor: pointer;
+}
+
+.h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}

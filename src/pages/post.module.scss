@@ -1,0 +1,116 @@
+.wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .link_wrapper {
+        padding-top: 10px;
+    }
+    .link {
+        text-decoration: none;
+        color: silver;
+        font-weight: 400;
+        font-size: 20px;
+        
+    }
+    .link:hover {
+        cursor: pointer;
+    }
+    
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    gap: 20px;
+
+    .icons {
+        display: flex;
+        gap: 15px
+    }
+    .icon {
+        font-size: 20px;
+    }
+    .icon:hover {
+        cursor: pointer;
+    }
+
+    .title {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+.main {
+display: grid;
+grid-template-rows: 200px auto;
+grid-template-columns: 200px auto;
+grid-template-areas: 
+'image author'
+'text text';
+gap: 30px;
+
+    .img{
+        grid-area: image;
+        align-self: center;
+        max-height: 200px;
+        max-width: 200px;
+    
+    }   
+    .author {
+        grid-area: author;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 10px;
+
+        .author_name {
+            color: silver;
+            font-style: italic;
+        }
+    }
+    .text {
+        grid-area: text;
+        font-size: medium;
+        border: 1px solid silver;
+        padding: 10px;
+    }
+   
+}
+
+.h3 {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+.h3:hover {
+    cursor: pointer;
+}
+
+.addBtn {
+    border: none;
+    border-color: orange;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: orange;
+    border-width: 1px;
+}
+.addBtn:hover{
+    cursor: pointer;
+}
+
+.favourite {
+    display: flex;
+    gap: 8px;
+    color: orange;
+    font-size: 15px;
+}
+.favourite:hover {
+    cursor: pointer;
+}

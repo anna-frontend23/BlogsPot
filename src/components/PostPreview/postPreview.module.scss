@@ -1,0 +1,46 @@
+.box {
+    display: grid;
+    border: 1px solid orange;
+    box-shadow: 0 0 5px rgba(130, 80, 4, 0.4);
+    padding: 15px;
+    gap: 10px;
+    
+}
+.box:hover {
+    cursor: pointer;
+}
+
+.img {
+    max-height: 100px;
+    max-width: 110px;
+}
+
+.card__heart {
+    display: flex;
+    justify-content: flex-end;
+    color: orange;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.side_info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .author {
+        font-style: italic;
+        color: rgb(169, 168, 168);
+
+    }
+    .h3 {
+        margin-top: 0;
+        width: 500px;
+    }
+}
+

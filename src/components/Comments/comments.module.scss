@@ -1,0 +1,30 @@
+
+.comments_block {
+    display: flex;
+    flex-direction: column;
+    border: 0.5px silver;
+    border-style: solid none;
+    padding: 15px;
+    
+}
+
+.comment_block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .author {
+        font-style: italic;
+        color: silver
+    }
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    font-size: 15px;
+}
+.icon:hover {
+    cursor: pointer;
+}
